@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none; 
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 60vw;
+  background-image: url(../img/bg1.png);
+  background-size: cover;
+}
+
+.header__container-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__container{
+  margin-top: 2vw;
+  margin-left: 6vw;
+}
+
+.logo{
+  font-family: 'Pacifico', cursive;
+  font-size: 4vw;
+  font-weight: 500; 
+}
+
+.nav__list{
+  display: flex;
+  margin-top: 4vw;
+  margin-right: 6vw;
+}
+
+.nav__list li{
+  list-style: none;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  
+}
+
+.nav__list a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Signika', sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.header__container-2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 6vw;
+  margin-top: 15vw;
+  width: 30vw; 
+}
+
+.title{
+  font-size: 4vw;
+  font-family: 'Bree Serif', serif;
+}
+
+.header__button{
+  background: rgb(255, 96, 51);
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 4vw;
+  display: flex;
+  margin-top: 2vw;
+  font-size: 1.7vw;
+}
+
+.header__button a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header__text{
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  font-family: 'Raleway', sans-serif;
+  line-height: 2vw;
+}
+
+.main{
+  height: 40vw;
+  background: rgb(0, 177, 177);
+}
+
+.main__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__img{
+  width: 40vw;
+  margin-right: 10vw;
+}
+
+.main__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25vw;
+  width: 35vw;
+  font-size: 1vw;
+  line-height: 2vw;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main__text h2{
+  padding-top: 2vw;
+  font-size: 6vw;
+  font-weight: 500;
+
+}
+
+.nav__list a:hover{
+  border-top: 4px solid rgb(255, 96, 51);;
+  transition: 0.2s;
+  box-shadow: 0 1vw 1vw rgba(0,0,0,0.25), 0 1vw 1vw rgba(0,0,0,0.22);
+}
+
+.header__button:hover{
+  transition: 0.2s;
+  box-shadow: 0 1vw 2vw rgba(0,0,0,0.25), 0 1vw 1vw rgba(0,0,0,0.22);
+}
+
+
+
+
+
+
+
+
