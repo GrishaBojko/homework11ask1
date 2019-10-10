@@ -12,12 +12,12 @@
   background-size: cover;
 }
 
-.header__container-1{
+.container-1{
   display: flex;
   justify-content: space-between;
 }
 
-.logo__container{
+.container-1__logo{
   margin-top: 2vw;
   margin-left: 6vw;
 }
@@ -49,7 +49,7 @@
   font-weight: 500;
 }
 
-.header__container-2{
+.container-2{
   display: flex;
   flex-direction: column;
   margin-left: 6vw;
@@ -57,12 +57,12 @@
   width: 30vw; 
 }
 
-.title{
+.container-2__title{
   font-size: 4vw;
   font-family: 'Bree Serif', serif;
 }
 
-.header__button{
+.container-2__button{
   background: rgb(255, 96, 51);
   justify-content: center;
   align-items: center;
@@ -73,13 +73,13 @@
   font-size: 1.7vw;
 }
 
-.header__button a{
+.container-2__button a{
   text-decoration: none;
   color: white;
   font-family: 'Raleway', sans-serif;
 }
 
-.header__text{
+.container-2__text{
   font-size: 1.5vw;
   padding-top: 1vw;
   font-family: 'Raleway', sans-serif;
@@ -91,18 +91,18 @@
   background: rgb(0, 177, 177);
 }
 
-.main__container{
+.container-3{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main__img{
+.container-3__img{
   width: 40vw;
   margin-right: 10vw;
 }
 
-.main__text{
+.container-3__text{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -114,7 +114,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.main__text h2{
+.container-3__title{
   padding-top: 2vw;
   font-size: 6vw;
   font-weight: 500;
@@ -127,10 +127,11 @@
   box-shadow: 0 1vw 1vw rgba(0,0,0,0.25), 0 1vw 1vw rgba(0,0,0,0.22);
 }
 
-.header__button:hover{
+.container-2__button:hover{
   transition: 0.2s;
   box-shadow: 0 1vw 2vw rgba(0,0,0,0.25), 0 1vw 1vw rgba(0,0,0,0.22);
 }
+
 
 
 
